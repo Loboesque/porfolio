@@ -1,17 +1,17 @@
 #firstSection{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, #2D3436, #000000);
+    background-image: linear-gradient(to right, #000000, #000000);
     /*background-color:#000000;*/
 }
 
 #secondSection{
     width: 100%;
-    background-image: linear-gradient(to right, #2D3436, #000000);
+    background-image: linear-gradient(to right, #000000, #000000);
 }
 
 #welcome {
-    margin-left: 3%;
+    margin-left: 0.2%;
     padding-top: 15%;
 }
 
@@ -19,6 +19,7 @@
 
 #welcome h1{
     font-family: 'Podkova', serif;
+    font-weight: bold;
     font-size: 100px;
     color: rgba(255,255,255,.99);
     word-wrap: break-word;
@@ -65,7 +66,7 @@
 
 #AboutMeParagraph{
     width: 300px;
-    margin-left: 10px;
+    margin-left: 0.2%;
     padding-top: 30px;
     padding-bottom: 200px;
 }
@@ -81,11 +82,11 @@
 #thirdSection{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, #2D3436, #000000);
+    background-image: linear-gradient(to right, #000000, #000000);
 }
 
 #thirdSection h1{
-    font-family: 'Podkova', serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 88px;
     color:rgba(255,255,255,.99);
     margin-left: 28px;
@@ -94,11 +95,12 @@
 #fourthSection{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, #2D3436, #000000);
+    background-image: linear-gradient(to right, #000000, #000000);
 }
 
 #fourthSection h1{
-    font-family: 'Podkova', serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 0.2%;
     font-size: 88px;
     color:rgba(255,255,255,.99);
     margin-left: 28px;
@@ -108,7 +110,6 @@ a {
     font-family: 'Ubuntu', sans-serif;
     color:rgba(255,255,255,.99);
     font-size: 30px;
-    margin-left: 28px;
     margin-bottom: 15px;
 }
 
@@ -117,28 +118,28 @@ a {
     #firstSection{
         width: 100%;
         height: 100vh;
-        background-image: linear-gradient(to right, #2D3436, #000000);
+        background-image: linear-gradient(to right, #000000, #000000);
         /*background-color:#000000;*/
     }
     
     #secondSection{
         width: 100%;
-        background-image: linear-gradient(to right, #2D3436, #000000);
+        background-image: linear-gradient(to right, #000000, #000000);
     }
     
     #welcome {
-        margin-left: 33%;
-        padding-top: 7%;
+        margin-left: 22%;
+        padding-top: 10%;
     }
     
     #welcome h1{
         font-family: 'Podkova', serif;
-        font-size: 120px;
+        font-size: 170px;
         color: rgba(255,255,255,.99);
-        animation: fadein 2s;
-        -moz-animation: fadein 2s; /* Firefox */
-        -webkit-animation: fadein 2s; /* Safari and Chrome */
-        -o-animation: fadein 2s; /* Opera */
+        animation: fadein 3s;
+        -moz-animation: fadein 3s; /* Firefox */
+        -webkit-animation: fadein 3s; /* Safari and Chrome */
+        -o-animation: fadein 3s; /* Opera */
     
     }
     
