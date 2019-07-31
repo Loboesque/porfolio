@@ -117,6 +117,21 @@ a {
     height: 200px;
     border: 2px solid white;
     margin-left: 8%;
+    margin: 40px 0px 0px 65px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.squares:hover{
+    background-color: 
+    #0c0c0c;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+    margin-left: 68px;
     margin-top: 20px;
 
 }
@@ -124,8 +139,19 @@ a {
 .text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    margin-top: 10px;
 }
 
+
+.projectDescription{
+    border-top: 1px solid white;
+    color: aliceblue;
+    padding: 10px 0px 0px 10px;
+}
+
+.projectDescription a{
+    font-size: 30px;
+}
 
 
 @media only screen and (min-width: 768px){
