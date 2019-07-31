@@ -117,7 +117,7 @@ a {
     height: 200px;
     border: 2px solid white;
     margin-left: 8%;
-    margin: 40px 0px 0px 65px;
+    margin: 40px 0px 0px 40px;
     display: flex;
     flex-direction: column;
 
